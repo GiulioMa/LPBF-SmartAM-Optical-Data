@@ -11,7 +11,7 @@ def computeBoundaries(signal, th):
     indexes[locs] = 1
 
     # Morphological operations
-    selem = np.ones((70, 1))
+    selem = np.ones((70, 1)) #70
     closed = skimage.morphology.closing(indexes, selem)
     opened = skimage.morphology.opening(closed, selem)
 
@@ -45,7 +45,7 @@ def plot_and_segment_cube_signals(base_path, params_dict, cube_number, segmented
         time_array = np.arange(data_channel_0.size) * time_step
 
         # Use channel 1 to find boundaries
-        starting_1, ending_1 = computeBoundaries(data_channel_1, threshold)
+        starting_1, ending_1 = computeBoundaries(data_channel_0, threshold)
         num_segments = len(starting_1)
         segment_sizes = ending_1 - starting_1
         avg_size = np.mean(segment_sizes)
