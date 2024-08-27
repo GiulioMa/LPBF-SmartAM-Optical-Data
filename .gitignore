@@ -1,1 +1,9 @@
 .ipynb_checkpoints/
+
+*.csv
+*.zip
+*.pkl
+*.zip
+*.pkl
+*.zip
+__pycache__/
