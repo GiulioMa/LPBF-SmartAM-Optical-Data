@@ -7,3 +7,7 @@
 *.pkl
 *.zip
 __pycache__/
+*.pkl
+*.zip
+*.txt
+__pycache__/
