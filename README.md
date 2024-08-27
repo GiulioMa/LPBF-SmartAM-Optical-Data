@@ -2,6 +2,10 @@
 
 This repository contains a collection of Jupyter notebooks for analyzing and optimizing Laser Powder Bed Fusion (LPBF) processes. The notebooks cover various aspects of LPBF, including experimental design, signal analysis, and machine learning approaches for process optimization.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13380755.svg)](https://doi.org/10.5281/zenodo.13380755)
+
+The dataset associated with this project is available on Zenodo. Click the badge above to access it.
+
 ## Repository Structure
 
 The repository consists of the following Jupyter notebooks:
